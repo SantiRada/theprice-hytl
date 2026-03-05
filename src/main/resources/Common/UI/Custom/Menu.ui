@@ -1,0 +1,11 @@
+
+Group #MenuUI {
+    FlexWeight: 1;
+    Background: (Color: #000000(0.35));
+    LayoutMode: Center;
+
+    Label #TextExample {
+        Text: "Menu System Loading";
+        Style: (TextColor: #ffffff, RenderBold: true, FontSize: 24, Alignment: Center);
+    }
+}

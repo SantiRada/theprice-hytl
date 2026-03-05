@@ -1,0 +1,20 @@
+{
+  "Group": "Tenzinn",
+  "Name": "ThePrice-HYTL",
+  "Version": "0.1.0",
+  "Description": "Is a plugin for 'Hytale New Worlds'",
+  "Authors": [
+    {
+      "Name": "Tenzinn",
+      "Email": "santynrada+hytl@gmail.com",
+      "Url": "https://santiagorada.com/hytale"
+    }
+  ],
+  "Website": "https://santiagorada.com/hytale/plugins/ThePrice",
+  "ServerVersion": "2026.02.26-7681d338c",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "Main": "Tenzinn.ThePrice"
+}

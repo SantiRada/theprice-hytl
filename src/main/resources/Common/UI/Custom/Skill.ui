@@ -1,0 +1,150 @@
+
+Group #SkillUI {
+    FlexWeight: 1;
+    LayoutMode: Center;
+    Background: (Color: #000000(0.5));
+
+    Group #Skill01 {
+        LayoutMode: Top;
+        Padding: (Top: 30, Left: 30, Right: 30, Bottom: 30);
+        Background: (Color: #FFFFFF(0.75));
+        Anchor: (Width: 400, Height: 600, Right: 24);
+
+        Group {
+            LayoutMode: Center;
+            Anchor: (Bottom: 30);
+
+            Group #Icon01 {
+                LayoutMode: Left;
+                Background: (Color: #333333);
+                Anchor: (Width: 150, Height: 150);
+            }
+        }
+
+        Label #Title01 {
+            Anchor: (Bottom: 30);
+            Text: "Example Skill";
+            Style: (TextColor: #000000, RenderBold: true, Alignment: Center, FontSize: 32);
+        }
+
+        Group #Slot01 {
+            FlexWeight: 1;
+            LayoutMode: Middle;
+            Background: (Color: #000000(0.25));
+            Padding: (Top: 15, Left: 15, Right: 15, Bottom: 15);
+
+            Label #Description01 {
+                FlexWeight: 1;
+                Text: "Lorem ipsum dolor sit amet bonete ful iteraco surem.";
+                Style: (TextColor: #FFFFFF(0.85), Alignment: Center, FontSize: 18);
+            }
+        }
+
+        Button #Button01 {
+            FlexWeight: 1;
+            Anchor: (Height: 50, Top: 12);
+            Background: (Color: #AD5A36);
+
+            Label {
+                Text: "Seleccionar";
+                Style: (TextColor: #FFFFFF, RenderBold: true, Alignment: Center, FontSize: 20);
+            }
+        }
+    }
+
+    Group #Skill02 {
+        LayoutMode: Top;
+        Padding: (Top: 30, Left: 30, Right: 30, Bottom: 30);
+        Background: (Color: #FFFFFF(0.75));
+        Anchor: (Width: 400, Height: 600, Right: 24);
+
+        Group {
+            LayoutMode: Center;
+            Anchor: (Bottom: 30);
+
+            Group #Icon02 {
+                LayoutMode: Left;
+                Background: (Color: #333333);
+                Anchor: (Width: 150, Height: 150);
+            }
+        }
+
+        Label #Title02 {
+            Anchor: (Bottom: 30);
+            Text: "Example Skill";
+            Style: (TextColor: #000000, RenderBold: true, Alignment: Center, FontSize: 32);
+        }
+
+        Group #Slot02 {
+            FlexWeight: 1;
+            LayoutMode: Middle;
+            Background: (Color: #000000(0.25));
+            Padding: (Top: 15, Left: 15, Right: 15, Bottom: 15);
+
+            Label #Description02 {
+                FlexWeight: 1;
+                Text: "Lorem ipsum dolor sit amet bonete ful iteraco surem.";
+                Style: (TextColor: #FFFFFF(0.85), Alignment: Center, FontSize: 18);
+            }
+        }
+
+        Button #Button02 {
+            FlexWeight: 1;
+            Anchor: (Height: 50, Top: 12);
+            Background: (Color: #AD5A36);
+
+            Label {
+                Text: "Seleccionar";
+                Style: (TextColor: #FFFFFF, RenderBold: true, Alignment: Center, FontSize: 20);
+            }
+        }
+    }
+
+    Group #Skill03 {
+        LayoutMode: Top;
+        Padding: (Top: 30, Left: 30, Right: 30, Bottom: 30);
+        Background: (Color: #FFFFFF(0.75));
+        Anchor: (Width: 400, Height: 600, Right: 24);
+
+        Group {
+            LayoutMode: Center;
+            Anchor: (Bottom: 30);
+
+            Group #Icon03 {
+                LayoutMode: Left;
+                Background: (Color: #333333);
+                Anchor: (Width: 150, Height: 150);
+            }
+        }
+
+        Label #Title03 {
+            Anchor: (Bottom: 30);
+            Text: "Example Skill";
+            Style: (TextColor: #000000, RenderBold: true, Alignment: Center, FontSize: 32);
+        }
+
+        Group #Slot03 {
+            FlexWeight: 1;
+            LayoutMode: Middle;
+            Background: (Color: #000000(0.25));
+            Padding: (Top: 15, Left: 15, Right: 15, Bottom: 15);
+
+            Label #Description03 {
+                FlexWeight: 1;
+                Text: "Lorem ipsum dolor sit amet bonete ful iteraco surem.";
+                Style: (TextColor: #FFFFFF(0.85), Alignment: Center, FontSize: 18);
+            }
+        }
+
+        Button #Button03 {
+            FlexWeight: 1;
+            Anchor: (Height: 50, Top: 12);
+            Background: (Color: #AD5A36);
+
+            Label {
+                Text: "Seleccionar";
+                Style: (TextColor: #FFFFFF, RenderBold: true, Alignment: Center, FontSize: 20);
+            }
+        }
+    }
+}

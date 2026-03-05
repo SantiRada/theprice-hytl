@@ -1,0 +1,45 @@
+@Background = PatchStyle(TexturePath: "content/hud/background.png");
+
+@Icon = PatchStyle(TexturePath: "content/hud/icon.png");
+
+Group #NewHUD {
+    FlexWeight: 1;
+    LayoutMode: Bottom;
+
+    Group #HealthHUD {
+        LayoutMode: Left;
+        Padding: (Left: 32, Bottom: 32);
+
+        Group #HealthBar {
+            LayoutMode: Left;
+            Anchor: (Width: 321, Height: 54);
+            Background: @Background;
+
+            Group #Icon {
+                LayoutMode: Left;
+                Anchor: (Width: 54, Height: 54);
+                Background: @Icon;
+            }
+
+            Group #HealthMask {
+                LayoutMode: Middle;
+                Anchor: (Width: 261, Height: 26, Left: -2);
+
+                Group {
+                    LayoutMode: Left;
+
+                    Group #HealthbarMask {
+                        LayoutMode: Left;
+                        Anchor: (Width: 261, Height: 26);
+                        MaskTexturePath: "content/hud/health-mask.png";
+
+                        Group #HealthbarValue {
+                            Anchor: (Width: 261, Height: 26);
+                            Background: (Color: #AD5A36);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

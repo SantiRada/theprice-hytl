@@ -1,0 +1,11 @@
+
+Group #FlairUI {
+    FlexWeight: 1;
+    Background: (Color: #000000(0.35));
+    LayoutMode: Center;
+
+    Label #TextExample {
+        Text: "Flair System Loading";
+        Style: (TextColor: #ffffff, RenderBold: true, FontSize: 24, Alignment: Center);
+    }
+}

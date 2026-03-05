@@ -1,0 +1,50 @@
+
+Group #DialogUI {
+    FlexWeight: 1;
+    LayoutMode: Bottom;
+    Background: (Color: #000000(0.5));
+
+    Group {
+        LayoutMode: Center;
+
+        Group {
+            FlexWeight: 1;
+            LayoutMode: Left;
+            Anchor: (Height: 400, Left: 350, Right: 350, Bottom: 30);
+            Background: (Color: #A6351C);
+
+            Group #SectorContent {
+                FlexWeight: 1;
+                LayoutMode: Top;
+                Anchor: (Left: 24, Bottom: 24, Top: 24, Right: 24);
+
+                Label #Title {
+                    Text: "Usuario ejemplo";
+                    Style: (FontSize: 26, RenderBold: true, TextColor: #000000(0.5));
+                }
+
+                Label #Content {
+                    FlexWeight: 1;
+                    Anchor: (Top: 12);
+                    Text: "Lorem ipsum dolor sit amet...";
+                    Style: (FontSize: 20, TextColor: #999999(0.65));
+                }
+
+                Label #Continue {
+                    Anchor: (Top: 12);
+                    Text: "Clic para continuar";
+                    Style: (FontSize: 22, RenderBold: true, TextColor: #AD5A36(0.85));
+                }
+            }
+
+            Group #SectorIcon {
+                LayoutMode: Bottom;
+
+                Group #IconUser {
+                    Background: (Color: #AD5A36);
+                    Anchor: (Width: 420, Height: 650, Left: 12, Bottom: 0);
+                }
+            }
+        }
+    }
+}
