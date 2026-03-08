@@ -29,12 +29,11 @@ Group #SkillUI {
 
         Group #Slot01 {
             FlexWeight: 1;
-            LayoutMode: Middle;
+            LayoutMode: Center;
             Background: (Color: #000000(0.25));
-            Padding: (Top: 15, Left: 15, Right: 15, Bottom: 15);
+            Padding: (Full: 15);
 
             Label #Description01 {
-                FlexWeight: 1;
                 Text: "Lorem ipsum dolor sit amet bonete ful iteraco surem.";
                 Style: (TextColor: #FFFFFF(0.85), Alignment: Center, FontSize: 18);
             }
@@ -77,12 +76,11 @@ Group #SkillUI {
 
         Group #Slot02 {
             FlexWeight: 1;
-            LayoutMode: Middle;
+            LayoutMode: Center;
             Background: (Color: #000000(0.25));
-            Padding: (Top: 15, Left: 15, Right: 15, Bottom: 15);
+            Padding: (Full: 15);
 
             Label #Description02 {
-                FlexWeight: 1;
                 Text: "Lorem ipsum dolor sit amet bonete ful iteraco surem.";
                 Style: (TextColor: #FFFFFF(0.85), Alignment: Center, FontSize: 18);
             }
@@ -125,12 +123,11 @@ Group #SkillUI {
 
         Group #Slot03 {
             FlexWeight: 1;
-            LayoutMode: Middle;
+            LayoutMode: Center;
             Background: (Color: #000000(0.25));
-            Padding: (Top: 15, Left: 15, Right: 15, Bottom: 15);
+            Padding: (Full: 15);
 
             Label #Description03 {
-                FlexWeight: 1;
                 Text: "Lorem ipsum dolor sit amet bonete ful iteraco surem.";
                 Style: (TextColor: #FFFFFF(0.85), Alignment: Center, FontSize: 18);
             }

@@ -1,5 +1,6 @@
 package Tenzinn.Commands.TestUI;
 
+import Tenzinn.Commands.Camera.ActivateCameraCommand;
 import com.hypixel.hytale.server.core.command.system.basecommands.AbstractCommandCollection;
 
 import org.checkerframework.checker.nullness.compatqual.NonNullDecl;

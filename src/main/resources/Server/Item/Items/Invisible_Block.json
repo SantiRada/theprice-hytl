@@ -1,0 +1,32 @@
+{
+  "TranslationProperties": {
+    "Name": "Invisible Block"
+  },
+  "Icon": "Icons/ItemsGenerated/Editor_Empty.png",
+  "Quality": "Technical",
+  "Categories": [
+    "Tool.Block"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "RequiresAlphaBlending": true,
+    "Opacity": "Transparent",
+    "Group": "@Tech",
+    "Flags": {},
+    "BlockParticleSetId": "Stone",
+    "CubeShadingMode": "Flat",
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Invisible_Wall.png"
+      }
+    ]
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Editor"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

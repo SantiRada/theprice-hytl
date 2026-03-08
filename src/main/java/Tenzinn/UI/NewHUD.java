@@ -1,8 +1,7 @@
 package Tenzinn.UI;
 
-import com.hypixel.hytale.server.core.Message;
-import com.hypixel.hytale.server.core.ui.Anchor;
 import com.hypixel.hytale.server.core.ui.Value;
+import com.hypixel.hytale.server.core.ui.Anchor;
 import com.hypixel.hytale.server.core.universe.PlayerRef;
 import com.hypixel.hytale.server.core.ui.builder.UICommandBuilder;
 import com.hypixel.hytale.server.core.entity.entities.player.hud.CustomUIHud;
@@ -15,9 +14,7 @@ public class NewHUD extends CustomUIHud {
 
     private UICommandBuilder uiBuilder;
 
-    private final PlayerRef playerRef;
-
-    public NewHUD(@NonNullDecl PlayerRef playerRef) { super(playerRef); this.playerRef = playerRef; }
+    public NewHUD(@NonNullDecl PlayerRef playerRef) { super(playerRef); }
 
     @Override
     protected void build(@NonNullDecl UICommandBuilder uiCommandBuilder) {

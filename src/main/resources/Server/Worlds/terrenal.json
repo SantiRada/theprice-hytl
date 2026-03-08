@@ -1,0 +1,66 @@
+{
+  "size": {
+    "min": {
+      "x": 12,
+      "y": 5,
+      "z": 14
+    },
+    "max": {
+      "x": 24,
+      "y": 10,
+      "z": 28
+    }
+  },
+  "content": {
+    "grounds": [
+      "Wood_Goldenwood_Decorative",
+      "Wood_Goldenwood_Ornate",
+      "Wood_Goldenwood_Planks",
+      "Wood_Goldenwood_Planks_Half",
+      "Wood_Amber_Trunk_Full"
+    ],
+    "walls": [
+      "Wood_Goldenwood_Decorative",
+      "Wood_Goldenwood_Ornate",
+      "Wood_Goldenwood_Planks",
+      "Wood_Goldenwood_Planks_Half",
+      "Wood_Goldenwood_Stairs"
+    ],
+    "decoratives": [
+      "Wood_Goldenwood_Beam",
+      "Wood_Goldenwood_Fence",
+      "Wood_Goldenwood_Fence_Gate",
+      "Wood_Amber_Branch_Long",
+      "Wood_Amber_Branch_Corner",
+      "Wood_Amber_Branch_Short"
+    ],
+    "roofs": [
+      "Wood_Amber_Trunk_Full",
+      "Wood_Goldenwood_Decorative"
+    ],
+    "roots": [
+      "Wood_Windwillow_Roots",
+      "Wood_Amber_Roots",
+      "Wood_Oak_Roots",
+      "Wood_Palm_Roots",
+      "Wood_Wisteria_Wild_Roots",
+      "Wood_Banyan_Roots",
+      "Wood_Beech_Roots"
+    ],
+    "plants": [
+      "Plant_Bush_Arid",
+      "Plant_Bush_Arid_Sharp",
+      "Plant_Bush_Arid_Red",
+      "Plant_Bush_Arid_Palm",
+      "Plant_Fern_Arid",
+      "Plant_Leaves_Palm_Arid",
+      "Plant_Reeds_Arid"
+    ],
+    "rubbles": [
+      "Rubble_Stone_Mossy",
+      "Rubble_Stone_Mossy_Medium",
+      "Rubble_Sandstone",
+      "Rubble_Sandstone_Medium"
+    ]
+  }
+}
