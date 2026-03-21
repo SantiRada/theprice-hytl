@@ -1,0 +1,8 @@
+{
+  "Health": 100,
+  "Stamina": 100,
+  "Damage": 1,
+  "Defense": 50,
+  "Speed Movement": 10,
+  "Speed Attack": 10
+}

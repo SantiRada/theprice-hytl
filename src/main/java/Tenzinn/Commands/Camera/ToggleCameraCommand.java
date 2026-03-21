@@ -23,7 +23,7 @@ public class ToggleCameraCommand extends AbstractTargetPlayerCommand {
 
         if (cam.getState()) { cam.deactivate(); }
         else {
-            cam.activate(5.4f);
+            cam.activate("terrenal");
             cam.applyToPlayer(playerRef);
         }
     }

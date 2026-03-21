@@ -1,11 +1,129 @@
 
 Group #FlairUI {
     FlexWeight: 1;
-    Background: (Color: #000000(0.35));
     LayoutMode: Center;
+    Background: (Color: #000000(0.5));
 
-    Label #TextExample {
-        Text: "Flair System Loading";
-        Style: (TextColor: #ffffff, RenderBold: true, FontSize: 24, Alignment: Center);
+    Button #Flair01 {
+        LayoutMode: Top;
+        Padding: (Top: 30, Left: 30, Right: 30, Bottom: 30);
+        Background: (Color: #FFFFFF(0.75));
+        Anchor: (Width: 400, Height: 600, Right: 24);
+
+        Group {
+            LayoutMode: Center;
+            Anchor: (Bottom: 30);
+
+            Group #Icon01 {
+                LayoutMode: Left;
+                Background: (Color: #333333);
+                Anchor: (Width: 150, Height: 150);
+            }
+        }
+
+        Label #Title01 {
+            Anchor: (Bottom: 30);
+            Text: "Example Flair";
+            Style: (TextColor: #000000, RenderBold: true, Alignment: Center, FontSize: 32);
+        }
+
+        Group #Slot01 {
+            FlexWeight: 1;
+            LayoutMode: Middle;
+            Background: (Color: #000000(0.25));
+            Padding: (Full: 15);
+
+            Label #Positive01 {
+                Text: "+5 Example";
+                Style: (TextColor: #00FF2F, Alignment: Center, FontSize: 18);
+            }
+
+            Label #Negative01 {
+                Text: "-3 Example";
+                Style: (TextColor: #FF0022, Alignment: Center, FontSize: 18);
+            }
+        }
+    }
+
+    Button #Flair02 {
+        LayoutMode: Top;
+        Padding: (Top: 30, Left: 30, Right: 30, Bottom: 30);
+        Background: (Color: #FFFFFF(0.75));
+        Anchor: (Width: 400, Height: 600, Right: 24);
+
+        Group {
+            LayoutMode: Center;
+            Anchor: (Bottom: 30);
+
+            Group #Icon02 {
+                LayoutMode: Left;
+                Background: (Color: #333333);
+                Anchor: (Width: 150, Height: 150);
+            }
+        }
+
+        Label #Title02 {
+            Anchor: (Bottom: 30);
+            Text: "Example Flair";
+            Style: (TextColor: #000000, RenderBold: true, Alignment: Center, FontSize: 32);
+        }
+
+        Group #Slot02 {
+            FlexWeight: 1;
+            LayoutMode: Middle;
+            Background: (Color: #000000(0.25));
+            Padding: (Full: 15);
+
+            Label #Positive02 {
+                Text: "+5 Example";
+                Style: (TextColor: #00FF2F, Alignment: Center, FontSize: 18);
+            }
+
+            Label #Negative02 {
+                Text: "-3 Example";
+                Style: (TextColor: #FF0022, Alignment: Center, FontSize: 18);
+            }
+        }
+    }
+
+    Button #Flair03 {
+        LayoutMode: Top;
+        Padding: (Top: 30, Left: 30, Right: 30, Bottom: 30);
+        Background: (Color: #FFFFFF(0.75));
+        Anchor: (Width: 400, Height: 500);
+
+        Group {
+            LayoutMode: Center;
+            Anchor: (Bottom: 30);
+
+            Group #Icon03 {
+                LayoutMode: Left;
+                Background: (Color: #333333);
+                Anchor: (Width: 150, Height: 150);
+            }
+        }
+
+        Label #Title03 {
+            Anchor: (Bottom: 30);
+            Text: "Example Flair";
+            Style: (TextColor: #000000, RenderBold: true, Alignment: Center, FontSize: 32);
+        }
+
+        Group #Slot03 {
+            FlexWeight: 1;
+            LayoutMode: Middle;
+            Background: (Color: #000000(0.25));
+            Padding: (Full: 15);
+
+            Label #Positive03 {
+                Text: "+5 Example";
+                Style: (TextColor: #00FF2F, Alignment: Center, FontSize: 18);
+            }
+
+            Label #Negative03 {
+                Text: "-3 Example";
+                Style: (TextColor: #FF0022, Alignment: Center, FontSize: 18);
+            }
+        }
     }
 }

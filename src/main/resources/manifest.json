@@ -11,8 +11,8 @@
     }
   ],
   "Website": "https://santiagorada.com/hytale/plugins/ThePrice",
-  "ServerVersion": "2026.03.05-9fdc5985d",
-  "Dependencies": {},
+  "ServerVersion": "2026.03.12-b1f856309",
+  "Dependencies": { "Hytale:DamageModule": "*" },
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": true,

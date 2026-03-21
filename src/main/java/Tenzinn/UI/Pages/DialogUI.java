@@ -1,6 +1,6 @@
 package Tenzinn.UI.Pages;
 
-import Tenzinn.UI.Data.DialogEventData;
+import Tenzinn.UI.EventData.DialogEventData;
 
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
@@ -20,7 +20,7 @@ public class DialogUI extends InteractiveCustomUIPage<DialogEventData> {
 
     private UICommandBuilder uiBuilder;
 
-    public DialogUI(PlayerRef playerRef) { super(playerRef, CustomPageLifetime.CanDismiss, Tenzinn.UI.Data.DialogEventData.CODEC); }
+    public DialogUI(PlayerRef playerRef) { super(playerRef, CustomPageLifetime.CanDismiss, Tenzinn.UI.EventData.DialogEventData.CODEC); }
 
     @Override
     public void build(@NonNullDecl Ref<EntityStore> ref,@NonNullDecl UICommandBuilder uiCommandBuilder,@NonNullDecl UIEventBuilder uiEventBuilder,@NonNullDecl Store<EntityStore> store) {
@@ -28,6 +28,18 @@ public class DialogUI extends InteractiveCustomUIPage<DialogEventData> {
 
         uiCommandBuilder.append("Dialog.ui");
         uiBuilder = uiCommandBuilder;
+
+        sendUpdate();
+    }
+
+    private void setListeners(UIEventBuilder uiEventBuilder) {
+        // Para testeo es lo primero que se me ocurrió
+    }
+
+    @Override
+    public void handleDataEvent(@NonNullDecl Ref<EntityStore> ref, @NonNullDecl Store<EntityStore> store, DialogEventData data) {
+        // aun no está en funcionamiento
+        String action = data.getAction();
 
         sendUpdate();
     }

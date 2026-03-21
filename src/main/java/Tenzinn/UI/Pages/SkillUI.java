@@ -1,6 +1,6 @@
 package Tenzinn.UI.Pages;
 
-import Tenzinn.UI.Data.SkillEventData;
+import Tenzinn.UI.EventData.SkillEventData;
 
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
@@ -20,7 +20,7 @@ public class SkillUI extends InteractiveCustomUIPage<SkillEventData> {
 
     private UICommandBuilder uiBuilder;
 
-    public SkillUI(PlayerRef playerRef) { super(playerRef, CustomPageLifetime.CanDismiss, Tenzinn.UI.Data.SkillEventData.CODEC); }
+    public SkillUI(PlayerRef playerRef) { super(playerRef, CustomPageLifetime.CanDismiss, Tenzinn.UI.EventData.SkillEventData.CODEC); }
 
     @Override
     public void build(@NonNullDecl Ref<EntityStore> ref,@NonNullDecl UICommandBuilder uiCommandBuilder,@NonNullDecl UIEventBuilder uiEventBuilder,@NonNullDecl Store<EntityStore> store) {

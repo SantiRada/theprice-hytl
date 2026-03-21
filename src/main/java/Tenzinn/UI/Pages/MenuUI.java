@@ -1,6 +1,6 @@
 package Tenzinn.UI.Pages;
 
-import Tenzinn.UI.Data.MenuEventData;
+import Tenzinn.UI.EventData.MenuEventData;
 
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
@@ -20,7 +20,7 @@ public class MenuUI extends InteractiveCustomUIPage<MenuEventData> {
 
     private UICommandBuilder uiBuilder;
 
-    public MenuUI(PlayerRef playerRef) { super(playerRef, CustomPageLifetime.CanDismiss, Tenzinn.UI.Data.MenuEventData.CODEC); }
+    public MenuUI(PlayerRef playerRef) { super(playerRef, CustomPageLifetime.CanDismiss, Tenzinn.UI.EventData.MenuEventData.CODEC); }
 
     @Override
     public void build(@NonNullDecl Ref<EntityStore> ref,@NonNullDecl UICommandBuilder uiCommandBuilder,@NonNullDecl UIEventBuilder uiEventBuilder,@NonNullDecl Store<EntityStore> store) {
